@@ -134,40 +134,24 @@ Evaluates performance under multi-threaded scenarios to understand how well each
 ### Example Results:
 
 | Metric                  | Gson (ms)  | Jackson (ms) | Difference |
-
 |-------------------------|------------|--------------|------------|
-
 | **Execution Time (avg)** | 15.3       | 20.1         | -24%       |
-
 | **Execution Time (min)** | 12.1       | 18.4         | -34%       |
-
 | **Execution Time (max)** | 18.7       | 25.0         | -25%       |
 
-
-
 | Memory Usage (KB)       | Gson       | Jackson      |
-
 |-------------------------|------------|--------------|
-
 | **Memory (avg)**        | 120        | 140          |
-
 | **Memory (min)**        | 110        | 130          |
-
 | **Memory (max)**        | 125        | 145          |
-
 
 
 ### Concurrency Results:
 
 | Threads | Total Tasks | Gson Time (ms) | Jackson Time (ms) |
-
 |---------|-------------|----------------|-------------------|
-
 | 10      | 50          | 550            | 780               |
-
 | 20      | 100         | 1120           | 1550              |
-
-
 
 ### Visualization:
 
