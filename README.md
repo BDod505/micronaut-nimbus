@@ -191,9 +191,9 @@ Evaluates performance under multi-threaded scenarios to understand how well each
 
 
 
-## Creative Benchmark Presentation
+## Benchmark
 
-### Example Results:
+### Results:
 
 | Metric                  | Gson (ms)  | Jackson (ms) | Difference |
 |-------------------------|------------|--------------|------------|
