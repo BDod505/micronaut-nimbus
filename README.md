@@ -69,7 +69,69 @@ private String email;
 
 - Output: `{ "email": "user@example.com" }`
 
+### INPUT
+``` JSON
+    {
+    "userId": "user_12345",
+    "name": "john doe",
+    "email": "John.Doe@Example.COM",
+    "homeAddress": {
+        "street": "123 Main Street",
+        "city": "Hometown",
+        "zipCode": "12345"
+    },
+    "officeAddress": {
+        "street": "456 Corporate Ave",
+        "city": "Business City",
+        "zipCode": "67890"
+    },
+    "orders":
+        {
+            "orderId": "order_001",
+            "items": {
+                "name": "Laptop",
+                "quantity": 1,
+                "price": 1200.50
+            },
+            "totalAmount": 1252.48
+        }
+}
+```
 
+### Output
+
+```Json
+{
+    "userId": "user_12345",
+    "NAME": "john doe",
+    "email": "John.Doe@Example.COM",
+    "address": {
+        "home": {
+            "street": "123 Main Street",
+            "city": "Hometown",
+            "zipCode": "12345"
+        },
+        "office": {
+            "street": "456 Corporate Ave",
+            "city": "Business City",
+            "zipCode": "67890"
+        }
+    },
+    "test": {
+        "order": {
+            "ID": "order_001"
+        }
+    },
+    "items": {
+        "name": "Laptop",
+        "quantity": 1,
+        "price": 1200.5
+    },
+    "orders": {
+        "totalAmount": 1252.48
+    }
+}
+```
 
 ## JSON Performance Analysis Service
 
